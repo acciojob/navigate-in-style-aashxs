@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none; /* Remove bullets from list items */
+    display: flex; /* Use flexbox for horizontal alignment */
+}
+
+.nav-list li {
+    margin-right: 1rem; /* Space between list items */
+}
+
+.nav-list a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set text color */
+}
+
+.nav-list a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
